@@ -1,0 +1,389 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: #E9D041;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/bodyFullBkgnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainHeader {
+    height: 160px;
+    text-align: center;
+    background-color: #6F6F4B;
+    position: relative;
+}
+.mainHeader .jsModule {
+    width: 200px;
+    background-color: #C4D0B7;
+    height: 16px;
+    position: absolute;
+    left: 2px;
+    top: 130px;
+    padding-bottom: 5px;
+    font-size: 12pt;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: #C46D52;
+    padding-top: 5px;
+}
+.mainHeader #homeLkPg {
+    position: absolute;
+    left: 6px;
+    top: 8px;
+}
+.aboutMainHeader {
+    height: 75px;
+    text-align: center;
+    background-color: #6F6F4B;
+    position: relative;
+}
+.workMainHeader {
+    height: 75px;
+    text-align: center;
+    background-color: #6F6F4B;
+    position: relative;
+}
+.contactMainHeader {
+    height: 75px;
+    text-align: center;
+    background-color: #6F6F4B;
+    position: relative;
+}
+.mainHeader h1 {
+    color: #C4D0B7;
+}
+#skyBanner {
+    position: absolute;
+    left: 913px;
+    top: 0px;
+}
+.mainNav {
+    height: 65px;
+    background-color: #C46D52;
+    text-align: center;
+    position: relative;
+}
+.mainNav ul {
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 23px;
+    left: 324px;
+}
+.mainNav ul li {
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+.mainNav ul li a {
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    color: #6F6F4B;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 5px;
+    background-color: #C4CEB4;
+}
+.mainNav ul li a:link  , .mainNav ul li a:visited{
+    background-color: #C4CEB4;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 5px;
+    color: #6F6F4B;
+}
+.mainNav ul li a:hover   , .mainNav ul li a:active{
+    background-color: #6F6F4B;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    color: #C4CEB4;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.mainNav ul li a.Hcurrent       {
+    background-color: #6F6F44;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    color: #C4CEB4;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 5px;
+    cursor: default;
+}
+.mainContent {
+    background-color: #EFDABF;
+    position: relative;
+}
+.mainContent p {
+    padding: 15px;
+    margin: 0px;
+}
+.mainContent p img {
+    float: left;
+    padding-right: 10px;
+    border-right: 1px solid #C46D52;
+    margin-right: 10px;
+}
+.aboutMainContent {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: relative;
+    background-color: #EFDABF;
+    padding-right: 20px;
+    margin-left: 0px;
+    overflow: hidden;
+    background-image: url(../about/images/largeTile.png);
+    background-repeat: repeat;
+}
+.aboutMainContent .leftAside {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: #3E6838;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;
+    margin-bottom: 15px;
+}
+.workMainContent {
+    position: relative;
+    background-color: #EFDABF;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.workMainContent ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 120px;
+}
+.workMainContent ul li {
+    padding: 0px;
+    margin: 0px;
+}
+.workMainContent ul li a {
+    background-color: #3E6838;
+    display: block;
+    color: #ECF3AD;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.workMainContent ul li a:link , {
+    background-color: #3E6838;
+    display: block;
+    color: #ECF3AD;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.workMainContent ul li a:link  , .workMainContent ul li a:visited{
+    background-color: #3E6838;
+    display: block;
+    color: #ECF3AD;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.workMainContent ul li a:hover   , .workMainContent ul li a:active{
+    background-color: #ECF3AD;
+    display: block;
+    color: #3E6838;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.workMainContent ul li a.Vcurrent       {
+    background-color: #ECF3AD;
+    display: block;
+    color: #3E6838;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: default;
+}
+.workMainContent h3 {
+    width: 100px;
+    margin-left: 145px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    background-color: #ACACAC;
+    text-align: center;
+    color: #FFFFFF;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.workMainContent .LBpeople {
+    width: 610px;
+    background-color: #ACACAC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.LBpeople a img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+}
+.LBpeople a:hover img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #F7EB05;
+}
+.workMainContent .LBplants {
+    width: 610px;
+    background-color: #ACACAC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.LBplants a img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+}
+.LBplants a:hover img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #F7EB05;
+}
+.workMainContent .LBanimals {
+    width: 610px;
+    background-color: #ACACAC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.LBanimals a img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #FFFFFF;
+}
+.LBanimals a:hover img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #F7EB05;
+}
+.contactMainContent {
+    position: relative;
+    background-color: #EFDABF;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 95% 90%;
+    background-image: url(../images/sectionBkgnd.png);
+}
+.mainFooter {
+    height: 35px;
+    background-color: #9D9167;
+    text-align: center;
+    padding-top: 15px;
+}
+.mainFooter h4 {
+    margin-top: 0px;
+    color: #ECF3AD;
+}
+.mainFooter a:link {
+    color: #ECF3AD;
+}
+.mainFooter a:visited {
+    color: #ECF3AD;
+}
+.mainFooter a:hover {
+    color: #C46D52;
+}
+.mainFooter a:active {
+    color: #C46D52;
+}
+.workMainContent #envirPos {
+    position: absolute;
+    left: 204px;
+    top: 25px;
+}
+.workMainContent #parkPos {
+    position: absolute;
+    left: 466px;
+    top: 28px;
+}
+.workMainContent #olympic {
+    position: absolute;
+    left: 456px;
+    top: 34px;
+}
+.workMainContent #sequoia {
+    position: absolute;
+    left: 225px;
+    top: 32px;
+}
+.workMainContent #transnoMatt {
+    position: absolute;
+    left: 397px;
+    top: 31px;
+}
+.workMainContent #transmatt {
+    position: absolute;
+    left: 209px;
+    top: 32px;
+}
